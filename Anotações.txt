@@ -1,0 +1,68 @@
+=====================================
+Para fazer um comentário
+// Pra uma linha
+/* E pra um bloco deLinha */
+
+========================================
+Aula 06
+========
+Converte un string para numero
+ - Number 
+
+Converte un numero para string
+ - String
+
+ Em uma template string usa-se crase
+  - ${s} => ISTO É CHAMADO DE PLACE HOLDER
+
+  Converção de moedas
+
+  n1 tolocaleString('pt-br , {style: 'currency', currency: 'BRL'})
+
+  - n1 é uma variavel
+  - BRL  Real
+  - USD Dolar
+  - EUR Euro
+
+Aula 07  Operadores
+===================
+
+ - Aritiméticos
+   + Adição
+   - Subtração
+   * Muti´licação
+   / Divisão
+   % Porcento
+   ** Potencia
+   Ordem de Precedência dos operadores aritimeticos
+    ()
+    **
+    * , / , %
+    + , -
+    
+ - Atribuição
+ - Relacionais
+   >  Maior
+   <  Menor
+   >= Maior igual
+   <= Menor igual
+   == igual
+   != Não igual
+
+ - Lógicos
+
+   ! Negação
+   && Conjução
+   ||   Dinjunção
+
+   Ordem de Precedência dos operadores Lógicos
+   (), **, /
+   > , < , >=
+   !
+   &&
+   ||
+
+ 
+ - Ternario
+
+   ? :

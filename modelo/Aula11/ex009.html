@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naionalidades</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Qual sua nacionalidade: <input type="text" name="name" id="name">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular () {
+        var txtn = document.querySelector('input#name')
+        var res =  document.querySelector('div#res')
+        var nac  = (txtn.value) 
+       
+        res.innerHTML = `<p>Sua nacionalidade é <strong>${nac}<strong></p>`
+            if (nac == 'Brasil') {
+                res.innerHTML += `Você é Brasileiro`
+
+            } else {
+                res.innerHTML += `Você é estrangeiro`
+            }
+
+        }
+    </script>
+    
+</body>
+</html>
