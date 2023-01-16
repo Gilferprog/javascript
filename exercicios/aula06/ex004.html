@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold 10px;
+        }
+        
+    </style>
 </head>
 <body>
     <script>
         var nome = prompt('Qual seu nome')
-        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras`)
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras <br/>`)
+        document.write(`Seu nome em maiússculo é ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}`)
         
     </script>
 </body>
