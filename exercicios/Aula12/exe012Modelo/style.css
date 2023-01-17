@@ -1,7 +1,6 @@
 body{
-    background: rgb(90, 152, 245);
+    background-color: rgb(70, 184, 236);
     font: normal 15pt Arial;
-
 }
 
 header{
@@ -11,12 +10,12 @@ header{
 }
 
 section{
-    background: white;
+    background-color: white;
     border-radius: 10px;
-    padding: 15px;
+    padding: 15px;width: 500px;margin: auto;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 5px rgba(12, 12, 12, 0.671);
+    box-shadow: 5px 5px 10px black;
 }
 
 footer{
