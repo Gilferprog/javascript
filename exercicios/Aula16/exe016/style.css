@@ -1,13 +1,12 @@
-
-
 body{
-    background-color: rgb(1, 50, 155);
+    background-color: rgb(70, 184, 236);
     font: normal 15pt Arial;
 }
 
 header{
     color: white;
     text-align: center;
+
 }
 
 section{
@@ -19,13 +18,8 @@ section{
     box-shadow: 5px 5px 10px black;
 }
 
-input#fnum{
-    background-color: rgb(3, 53, 161, 0.582);
-}
-
 select#flista{
     width: 150px;
-    background-color: rgba(3, 53, 161, 0.582);
 }
 
 footer{
